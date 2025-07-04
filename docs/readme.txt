@@ -34,6 +34,7 @@ Program description:
 	- the program size kept growing and exceeded 64 kB at some point, making it necessary to upgrade memory model to be able to address that address space. It was chosen to go with Large model, that enabled enough address space for code and also for data.
 	- interfacing with the IPX driver requires ESR, interrupt handler to be called asynchronously when network data are available. Integration of ESR with the rest of the application required some black magic voodoo but seem to run smooth in the end. There are various calling modifiers used across the IPX module, that is indication to compiler to not perform optimizations or assume anything, as IPX data could be modified by the ESR at any time.
 	- one way of handling exceptions and one way of managing logs and various output messages. Programmable logging mask (set in build time) determining how much output will be generated and put to logfile.
+	- variable arguments count support for the logging and error handling
 
 
 fcstab.txt : codes pro the FCS - specific checksum field used to sign data frames
