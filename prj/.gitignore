@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except for project files:
+!*.PRJ
+# Except this file
+!.gitignore

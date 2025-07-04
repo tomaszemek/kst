@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except for EXE files:
+!*.EXE
+# Except this file
+!.gitignore
