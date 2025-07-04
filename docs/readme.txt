@@ -149,7 +149,7 @@ Great study materials for languages C and C++ are available here:
 
 Credits:
 - Jan Cepela and Petr Jordan, who introduced me to the dark side of programming in C for DOS/x86 platform
-- Lucie Vaclavkova for unmeasured patience and support while developing this program,
+- Lucie Vaclavkova for providing plenty of support while working on this project,
 - firma GiTy Net, s.r.o., Czech Republic, for providing support and stage opportunity in the area of computer networking and communications
 
 
